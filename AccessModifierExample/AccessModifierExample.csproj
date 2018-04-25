@@ -46,6 +46,7 @@
     <Compile Include="InternalModifier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtectedModifier.cs" />
     <Compile Include="PublicModifier.cs" />
   </ItemGroup>
   <ItemGroup>

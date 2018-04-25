@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AccessModifierExample
 {
-    public class PublicModifier
+    class PublicModifier
     {
 
         public static void PublicMethod()
@@ -16,7 +16,7 @@ namespace AccessModifierExample
         }
     }
 
-    public class TestPublicSubClass : PublicModifier
+    class TestPublicSubClass : PublicModifier
     {
         public TestPublicSubClass()
         {
@@ -24,7 +24,7 @@ namespace AccessModifierExample
         }
     }
 
-    public class TestPublic
+    class TestPublic
     {
         public TestPublic()
         {

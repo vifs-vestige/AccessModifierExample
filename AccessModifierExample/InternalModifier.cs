@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessModifierExample
 {
-    internal class InternalModifier
+    class InternalModifier
     {
         internal static void InternalMethod()
         {
@@ -14,7 +14,7 @@ namespace AccessModifierExample
         }
     }
 
-    internal class TestInternalSubClass : InternalModifier
+    class TestInternalSubClass : InternalModifier
     {
         public TestInternalSubClass()
         {
@@ -22,7 +22,7 @@ namespace AccessModifierExample
         }
     }
 
-    public class TestInternal
+    class TestInternal
     {
         public TestInternal()
         {
