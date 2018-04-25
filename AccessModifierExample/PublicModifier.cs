@@ -24,6 +24,13 @@ namespace AccessModifierExample
         }
     }
 
+    public class TestPublic
+    {
+        public TestPublic()
+        {
+            PublicModifier.PublicMethod();
+        }
+    }
 }
 
 

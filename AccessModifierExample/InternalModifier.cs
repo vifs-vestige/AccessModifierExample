@@ -22,5 +22,13 @@ namespace AccessModifierExample
         }
     }
 
+    public class TestInternal
+    {
+        public TestInternal()
+        {
+            InternalModifier.InternalMethod();
+        }
+    }
+
 }
 
