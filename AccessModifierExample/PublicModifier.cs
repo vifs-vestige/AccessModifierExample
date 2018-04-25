@@ -24,20 +24,6 @@ namespace AccessModifierExample
         }
     }
 
-    public class TestPublicInsideNamespace
-    {
-        public TestPublicInsideNamespace()
-        {
-            PublicModifier.PublicMethod();
-        }
-    }
 }
 
-public class TestPublicOutsideNamespace
-{
-    public TestPublicOutsideNamespace()
-    {
-        PublicModifier.PublicMethod();
-    }
-}
 
