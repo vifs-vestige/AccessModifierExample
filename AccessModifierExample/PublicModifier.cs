@@ -18,7 +18,10 @@ namespace AccessModifierExample
 
     public class TestPublicSubClass : PublicModifier
     {
-        PublicModifier.PublicMethod();
+        public TestPublicSubClass()
+        {
+            PublicModifier.PublicMethod();
+        }
     }
 
     public class TestPublicInsideNamespace
